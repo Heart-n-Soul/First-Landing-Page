@@ -13,7 +13,7 @@ body {
 .first-section {
   background-color: #1f2937;
   padding: 16px 13.5%;
-  height: 535px;
+  min-height: 535px;
 }
 
 h2 {
@@ -80,7 +80,7 @@ button {
 
 .img {
   width: 48%;
-  height: 250px;
+  height: auto;
   background-color: hsl(0, 0%, 50%);
   display: flex;
   justify-content: center;
