@@ -142,3 +142,36 @@ h3.second-header {
   color: #1f2937;
   max-width: 150px;
 }
+
+/* 
+  ============================================
+               THIRD SECTION
+  ============================================
+*/
+
+.third-section {
+  min-height: 400px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  text-align: justify;
+}
+
+.author {
+  font-style: normal;
+  align-self: flex-end;
+  font-weight: 900;
+  margin-top: 10px;
+  font-size: 24px;
+}
