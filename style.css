@@ -57,7 +57,7 @@ p {
 }
 
 button {
-  background-color: #3882f8;
+  background-color: #3882f6;
   padding: 8px 20px;
   border-radius: 6px;
   border-width: 0;
@@ -174,4 +174,37 @@ h3.second-header {
   font-weight: 900;
   margin-top: 10px;
   font-size: 24px;
+}
+
+/*
+   ===========================================
+         Fourth Section
+   ===========================================
+*/
+
+.fourth-section {
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 13%;
+}
+
+div.inner-container {
+  background-color: #3882f6;
+  width: 100%;
+  padding: 5% 10%;
+  display: flex;
+  border-radius: 8px;
+  justify-content: space-between;
+}
+
+.call-header {
+  font-size: 24px;
+}
+
+.btn-sign-up {
+  font-size: 18px;
+  border: 1px solid #f9faf8;
 }
